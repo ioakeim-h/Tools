@@ -4,8 +4,8 @@ import os
 
 
 paths = (
-    "path\\to\\import\\files\\1\\",
-    "path\\to\\files\\import\\2\\"
+    "path\\to\\directory\\1\\",
+    "path\\to\\directory\\2\\"
 )
 
 
