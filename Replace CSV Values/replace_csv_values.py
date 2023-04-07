@@ -2,15 +2,18 @@ import os
 import pandas as pd
 
 
+replace_dict = {
+    r"\bValue 1\b": "New Value 1",
+    r"\bValue 2\b": "New Value 2"
+}
+
+paths = [
+    "path/to/directory/1/",
+    "path/to/directory/2/"
+]
+
+    
 def main():
-    replace_dict = {
-        r"\bValue 1\b": "New Value 1",
-        r"\bValue 2\b": "New Value 2"
-    }
-    paths = [
-        "path/to/directory/1/",
-        "path/to/directory/2/"
-    ]
     for path in paths:
         dir_files = os.listdir(path)
         for file in dir_files:
