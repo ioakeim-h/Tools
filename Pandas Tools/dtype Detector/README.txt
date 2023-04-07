@@ -1,0 +1,3 @@
+This program is a Python script that includes a function called find_numeric which receives a pandas Series as input and returns subsets of this Series that contain numeric, ambiguous and string values.
+
+The program includes two versions of the find_numeric function. The first version, named "VECTORIZED VERSION", uses vectorized operations of pandas and numpy to apply regular expressions to the input data, whereas the second version, named "OLD VERSION", uses a more exhaustive search of regular expressions to identify numeric and ambiguous values.
